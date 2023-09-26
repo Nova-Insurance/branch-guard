@@ -1,21 +1,21 @@
 
 
-Development Logs
+# Development Journey #
 
-Express App
+## Express App ##
 Created a project branch-guard using npm init
 npm install express
 Refer the API Documentation from Github and create index.js https://docs.github.com/en/webhooks/using-webhooks/handling-webhook-deliveries#javascript-example
 Star server node index.js
 To ping test locally  'curl -X POST http://localhost:3000/webhook'
 
-Configure ngrok
+## Configure ngrok ##
 brew install ngrok/ngrok/ngrok
 ngrok config add-authtoken <your-token>
 ngrok http 3000 👉 https://023f-119-18-1-213.ngrok-free.app
 
 
-Configure Github Webhook
+## Configure Github Webhook ##
 Create Organization > Nova Insurance > Settings > Add webhook
 Subscribe for 'Repository Create / Update' events
 Add url https://023f-119-18-1-213.ngrok-free.app/webhook
@@ -48,6 +48,6 @@ https://docs.github.com/en/rest/branches/branch-protection?apiVersion=2022-11-28
 Lookup and follow documentation
 https://docs.github.com/en/rest/issues/issues?apiVersion=2022-11-28#create-an-issue
 
-### Serverles Deployment ###
+### Serverles Deployment [In-Progress]###
 
 https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-node?tabs=javascript%2Cwindows%2Cazure-cli&pivots=nodejs-model-v4
