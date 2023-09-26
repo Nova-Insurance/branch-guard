@@ -1,4 +1,4 @@
-\import { Octokit, App } from "octokit";
+import { Octokit, App } from "octokit";
 import express from 'express';
 import dotenv from 'dotenv';
 
