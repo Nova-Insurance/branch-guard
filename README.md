@@ -2,6 +2,12 @@
 
 # Development Journey #
 
+## Prerequisites ##
+Before running this application, make sure you have the following:
+
+Node.js installed on your machine.
+GitHub API Key. You can obtain one from your GitHub account settings.
+
 ## Express App ##
 Created a project branch-guard using npm init
 npm install express
@@ -48,6 +54,18 @@ https://docs.github.com/en/rest/branches/branch-protection?apiVersion=2022-11-28
 Lookup and follow documentation
 https://docs.github.com/en/rest/issues/issues?apiVersion=2022-11-28#create-an-issue
 
-### Serverles Deployment [In-Progress]###
+### Serverles Deployment ###
 
 https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-node?tabs=javascript%2Cwindows%2Cazure-cli&pivots=nodejs-model-v4
+
+Install Azure Extensions in VS Code
+Create a new Azure Functions for HTTP Triggers
+Install Azure Core functions to run the project locally
+Right click on the azure function icon and click deploy
+Test the webhook is working fine
+
+
+### Github Actions [In-Progress] ###
+
+Setup a new workflow in .github/workflows/
+https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-github-actions?tabs=windows%2Cjavascript&pivots=method-manual#example-workflow-configuration-file

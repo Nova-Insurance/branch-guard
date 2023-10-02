@@ -7,7 +7,7 @@ dotenv.config();
 
 // This initializes a new Express application.
 const app = express();
-const apiKey = process.env.API_KEY;
+const apiKey = process.env.GITHUB_API_KEY;
 
 const octokit = new Octokit({ auth: apiKey });
 
